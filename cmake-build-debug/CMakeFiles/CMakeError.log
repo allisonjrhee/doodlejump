@@ -1,0 +1,30 @@
+Performing C++ SOURCE FILE Test CXXFLAG_WCAST_ALIGN_STRICT_OKAY failed with the following output:
+Change Dir: /Users/allisonrhee/Downloads/DOODLE JUMP COPY 2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0b929/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0b929.dir/build.make CMakeFiles/cmTC_0b929.dir/build
+Building CXX object CMakeFiles/cmTC_0b929.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCXXFLAG_WCAST_ALIGN_STRICT_OKAY  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wcast-align=strict -o CMakeFiles/cmTC_0b929.dir/src.cxx.o -c "/Users/allisonrhee/Downloads/DOODLE JUMP COPY 2/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx"
+warning: unknown warning option '-Wcast-align=strict'; did you mean '-Wcast-align'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_0b929
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b929.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0b929.dir/src.cxx.o -o cmTC_0b929 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAG_WERROR_BOOL_COMPARE_OKAY failed with the following output:
+Change Dir: /Users/allisonrhee/Downloads/DOODLE JUMP COPY 2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1065/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e1065.dir/build.make CMakeFiles/cmTC_e1065.dir/build
+Building CXX object CMakeFiles/cmTC_e1065.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCXXFLAG_WERROR_BOOL_COMPARE_OKAY  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Werror=bool-compare -o CMakeFiles/cmTC_e1065.dir/src.cxx.o -c "/Users/allisonrhee/Downloads/DOODLE JUMP COPY 2/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx"
+warning: unknown warning option '-Werror=bool-compare' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_e1065
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1065.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e1065.dir/src.cxx.o -o cmTC_e1065 
+
+
+Source file was:
+int main() { return 0; }
